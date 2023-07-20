@@ -1,0 +1,167 @@
+Temario y recursos del 21 Días de Python
+
+Para este curso vas a necesitar
+1 Hora de contenido
+
+44 Horas de práctica
+
+¡Te damos la bienvenida a este reto!
+Empezando con Python desde 0
+01:08 min
+
+
+Día 1
+Variables, funciones y sintaxis básica
+01:57 min
+
+
+Tipos de datos: Numbers, Strings y Diccionarios
+02:30 min
+
+
+Playground - retorna el tipo
+Día 2
+Operadores
+02:09 min
+
+
+Playground - calcula la propina
+Día 3
+Condicionales
+01:17 min
+
+
+Playground - averigua si un año es bisiesto
+Ciclos
+02:27 min
+
+
+Playground - dibuja un triangulo usando bucles
+Día 4
+Listas
+01:24 min
+
+
+Encuentra a los gatitos más famosos
+Diccionarios
+01:27 min
+
+
+Obtén el promedio de los estudiantes
+Tuplas
+01:15 min
+
+
+Obten la información de los paquetes
+Día 5
+Calcula la cantidad de letras en una oración
+Encuentra el mayor palíndromo
+Día 6
+Sets
+03:28 min
+
+
+Encuentre la intersección de conjuntos
+Día 7
+List comprehension
+02:03 min
+
+
+Encuentra palabras con dos vocales
+Dictionary Comprehension
+01:32 min
+
+
+Calcula la longitud de las palabras
+Día 8
+Funciones Lambda
+01:36 min
+
+
+Filtra mensajes de un user específico
+Higher order functions
+01:32 min
+
+
+Crea tu propio método map
+Día 9
+Manejo de Errores y excepciones
+02:05 min
+
+
+Maneja correctamente los errores
+Maneja las excepciones
+Día 10
+Playground - crea un task manager usando closures
+Día 11
+Lectura de archivos de texto y CSV
+03:32 min
+
+
+Día 12
+Programación orientada a objetos
+02:59 min
+
+
+Crea un auto usando clases
+Día 13
+Abstracción en Python
+02:31 min
+
+
+Playground - crea un sistema de carrito de compras
+Encapsulamiento en Python
+02:45 min
+
+
+Playground - encapsula datos de los usuarios
+Día 14
+Herencia en Python
+01:24 min
+
+
+Playground - jerarquía de animales usando herencia
+Día 15
+Polimorfismo en Python
+01:41 min
+
+
+Playground - implementa un sistema de pagos
+Día 16
+Estructuras de datos en Python
+03:09 min
+
+
+Playground - crea tu propia lista en python
+Hash tables en Python
+03:24 min
+
+
+Playground - implementación de una hashtable para contactos
+Día 17
+Maps en Python
+01:24 min
+
+
+Playground - crea un task manager con maps
+Día 18
+Singly Linked List en Python
+04:56 min
+
+
+Playground - implementación de una singly linked list
+Día 19
+Stacks en Python
+03:42 min
+
+
+Playground - implementación de un stack
+Día 20
+Queues en Python
+03:52 min
+
+
+Playground - implementación de una queue
+Día 21
+¡Lo lograste!
+01:24 min
