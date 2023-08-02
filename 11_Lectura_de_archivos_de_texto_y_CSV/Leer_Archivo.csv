@@ -1,0 +1,9 @@
+Nombre,Edad,Profesión
+Juan,30,Ingeniero
+María,25,Médico
+Carlos,28,Abogado
+
+['Nombre', 'Edad', 'Profesión']
+['Juan', '30', 'Ingeniero']
+['María', '25', 'Médico']
+['Carlos', '28', 'Abogado']
