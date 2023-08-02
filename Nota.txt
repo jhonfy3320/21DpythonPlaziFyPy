@@ -1,0 +1,24 @@
+Para mejorar tu lógica de programación como Data Scientist, te recomiendo seguir los siguientes consejos:
+
+## Practica resolviendo problemas de programación: 
+Puedes encontrar muchos sitios web que ofrecen problemas de programación para resolver, como HackerRank, LeetCode, entre otros. 
+Resolver estos problemas te ayudará a mejorar tu lógica de programación y a familiarizarte con diferentes algoritmos y estructuras de datos.
+
+## Aprende a pensar en términos de algoritmos: 
+Un algoritmo es una serie de pasos que se siguen para resolver un problema. 
+Aprender a pensar en términos de algoritmos te ayudará a descomponer un problema en pasos más pequeños y a encontrar la solución de manera más eficiente.
+
+## Practica la lectura y escritura de código: 
+La lectura y escritura de código es una habilidad importante para cualquier programador. 
+Practica leyendo y escribiendo código de otros programadores para entender cómo se resuelven diferentes problemas.
+
+## Aprende a utilizar diferentes estructuras de datos: 
+Las estructuras de datos son herramientas importantes para cualquier programador. 
+Aprende a utilizar diferentes estructuras de datos, como listas, diccionarios, conjuntos, entre otros, para resolver diferentes problemas.
+
+## Aprende a utilizar librerías y frameworks: 
+Las librerías y frameworks son herramientas que te pueden ayudar a resolver problemas de manera más eficiente. 
+Aprende a utilizar librerías y frameworks populares en el mundo de la ciencia de datos, como NumPy, Pandas, Scikit-learn, entre otros.
+
+Espero que estos consejos te sean útiles. 
+¡Mucho éxito en tu camino como Data Scientist!
