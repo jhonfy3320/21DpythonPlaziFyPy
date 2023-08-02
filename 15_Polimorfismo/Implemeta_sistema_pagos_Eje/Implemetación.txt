@@ -1,0 +1,98 @@
+Para resolver el desafío, vamos a crear una implementación paso a paso de las clases Pay, 
+PayPal, Card, Cash, y la función process_pay. 
+A continuación, explicaré cada uno de los archivos y cómo resolver los errores en los tests.
+
+Archivo pay.py:
+
+class Pay:
+    def make_pay(self, amount):
+        return {
+            "realized": True,
+            "quantity": amount,
+        }
+La clase base Pay tiene un método make_pay que recibe la cantidad a pagar y devuelve un diccionario con las propiedades realized y quantity.
+
+Archivo paypal.py:
+
+from pay import Pay
+
+class PayPal(Pay):
+    def __init__(self, email):
+        self.email = email
+
+    def make_pay(self, amount):
+        payment_info = super().make_pay(amount)
+        payment_info.update({
+            "platform": "PayPal",
+            "email": self.email,
+        })
+        return payment_info
+La clase PayPal hereda de la clase Pay y tiene un constructor que recibe el email. 
+El método make_pay de PayPal llama al método make_pay de la clase base y agrega las propiedades platform y email al diccionario resultante.
+
+Archivo card.py:
+
+from pay import Pay
+
+class Card(Pay):
+    def __init__(self, card_number):
+        if len(card_number) != 16:
+            raise Exception("Número de tarjeta inválido")
+        self.card_number = card_number
+
+    def make_pay(self, amount):
+        payment_info = super().make_pay(amount)
+        payment_info.update({
+            "last_card_numbers": self.card_number[-4:],
+        })
+        return payment_info
+La clase Card hereda de la clase Pay y tiene un constructor que recibe el número de tarjeta. 
+Antes de crear una instancia de Card, se debe verificar que el número de tarjeta tenga exactamente 16 dígitos; 
+de lo contrario, se lanza una excepción. 
+El método make_pay de Card llama al método make_pay de la clase base y agrega la propiedad last_card_numbers 
+al diccionario resultante con los últimos 4 dígitos del número de tarjeta.
+
+Archivo cash.py:
+
+from pay import Pay
+
+class Cash(Pay):
+    pass
+La clase Cash hereda de la clase Pay. 
+No se necesita ningún constructor adicional o método make_pay porque Cash utilizará el método make_pay de la clase base Pay tal como está.
+
+Archivo car.py:
+
+from paypal import PayPal
+from card import Card
+from cash import Cash
+
+def process_pay(payment_method, amount):
+    return payment_method.make_pay(amount)
+La función process_pay recibe un método de pago y la cantidad a pagar, y simplemente llama al método make_pay del método de pago recibido.
+
+Archivo main.py:
+python
+Copy code
+from paypal import PayPal
+from card import Card
+from cash import Cash
+from car import process_pay
+
+# Ejemplo de uso
+try:
+    paypal = PayPal("correo@ejemplo.com")
+    card = Card("1234567890123456")
+    cash = Cash()
+
+    print(process_pay(paypal, 100))
+    print(process_pay(card, 50))
+    print(process_pay(cash, 200))
+except Exception as e:
+    print(str(e))
+En el archivo main.py estamos importando todas las clases y la función process_pay de los otros archivos, y luego estamos creando 
+instancias de cada método de pago (PayPal, Card y Cash) y llamando a la función process_pay con cada uno de ellos y una cantidad diferente.
+
+Con esta implementación, debería resolverse el desafío y se podrán realizar pagos utilizando distintos métodos de pago. 
+Si hay algún error en los tests, por favor proporciona más información sobre el error específico para que pueda ayudarte a corregirlo. 
+¡Espero que esta explicación te sea útil para resolver el desafío!
